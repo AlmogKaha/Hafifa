@@ -3,16 +3,20 @@ body{
 }
 
 .content-value{
-    margin: 15px;
+    margin: 11px;
     border-style: solid;
     border-color: black;
     width: 70%;
     height: 70px;
-    margin-left: 200px;
+    left: 180px;
+    position: relative; 
+
 }
 
-.absolute{
-    position:absolute; 
+.fixed-position{
+    position: fixed; 
+    top: 0;
+    left: 0;
 }
 
 .inline{
@@ -28,7 +32,7 @@ body{
 
 
 #navigation-panel{
-    top: 158px;
+    top: 150px;
     width: 15%;
     height: 700px;
     background-color: rgba(194, 191, 191, 0.952);
@@ -37,7 +41,7 @@ body{
 #content{
     height: 570px;
     width: 84%;
-    top: 158px;
+    top: 150px;
     margin-left: 246px;
     overflow-y: auto; 
  }
